@@ -1,0 +1,2263 @@
+{
+  "settings": {
+    "name": "montlleo-web",
+    "currentPage": "nadons.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#8c8484",
+        "#37383e",
+        "#f4d99b",
+        "#0b0b0b"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.9.7",
+    "siteFonts": [],
+    "uniqCompNum": 44,
+    "versionPublish": "4.9.7",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-a"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/embaracades011-992x661.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fbf2be",
+            "overlayOpacity": "0"
+          },
+          "title": "Jordi Montlleó Fotògrafs",
+          "text": "Reviu els teus records",
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#slider-7\" data-toolbar=\"-mbrBtnMove\">Descobreix</a>     ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-0",
+          "_styles": {
+            "P": {
+              "font-size": "30px",
+              "color": "#ffffff"
+            },
+            "B": {
+              "color": "#ffffff"
+            },
+            "H1": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": false,
+            "fullScreen": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons010-992x676.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Nadons",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament051-2000x1363.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Casaments",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles006-992x586.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Parelles",
+                "contentAlign": "left",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions009-992x676.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Comunions",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families006-992x744.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Grups i famílies",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mainada101-1134x773.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Mainada",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades012-992x992.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Embarassos",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/adults007-992x676.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Adults",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": true,
+                "overlayColor": "#f1c050"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/industrial009-1134x690.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Industrial",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": true,
+                "overlayColor": "#000000"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-7",
+          "_styles": {
+            "H2": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-d"
+        }
+      ]
+    },
+    "nadons.html": {
+      "settings": {
+        "title": "Nadons",
+        "order": 7
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-e"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "30",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f4d99b",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/nadons015-992x992.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Els nadons",
+          "text": "Ells i elles són molt especials",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-g",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".lead": {
+              "color": "#37383e"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "bgColor": "#ffffff",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/ainara-2-81bis-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ainara-2-81bis-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons003-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons003-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons012-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons012-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons013-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons013-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons014-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons014-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons016-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons016-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons036-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons036-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons047-992x881.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons047-992x881-800x710.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons055-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons055-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons060-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons060-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons062-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons062-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons063-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons063-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons068-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons068-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons070-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons070-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/nadons074-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nadons074-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-h"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-f"
+        }
+      ]
+    },
+    "casaments.html": {
+      "settings": {
+        "title": "Casaments",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-i"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cfeff6",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/casament003-1134x772.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Casaments",
+          "text": "<p>Un dels dies més feliços de les vostres vides. No perdeu ni un somriure!</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-k",
+          "_styles": {
+            ".lead P": {
+              "color": "#37383e"
+            },
+            ".mbr-section-title": {
+              "color": "#37383e"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament008-1134x772.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament008-1134x772-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament034-1134x773.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament034-1134x773-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament037-1134x773.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament037-1134x773-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament051-2000x1363.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament051-2000x1363-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament049-800x545.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament049-800x545-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament015-1134x772.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament015-1134x772-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament044-1134x773.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament044-1134x773-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament045-800x433.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament045-800x433-800x433.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament005-772x1134.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament005-772x1134-772x1134.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament006-772x1134.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament006-772x1134-772x1134.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament028-773x1134.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament028-773x1134-773x1134.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament013-772x1134.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament013-772x1134-772x1134.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament009-773x1134.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament009-773x1134-773x1134.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/casament031-1134x1134.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/casament031-1134x1134-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-l"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-j"
+        }
+      ]
+    },
+    "comunions.html": {
+      "settings": {
+        "title": "Comunions",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-m"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/comunions006-992x676.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Comunions",
+          "text": "Un dia pla d'alegries. Recorda'l per sempre.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-o"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions003-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions003-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions009-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions009-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions010-992x662.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions010-992x662-800x534.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions011-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions011-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions013-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions013-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions020-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions020-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions039-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions039-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions058-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions058-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions017-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions017-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions019-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions019-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions046-677x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions046-677x992-677x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions043-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions043-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions038-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions038-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/comunions036-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/comunions036-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-r"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-n"
+        }
+      ]
+    },
+    "grups-i-families.html": {
+      "settings": {
+        "title": "grups-i-families",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-s"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/grup-i-families005-992x717.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Grups i famílies",
+          "text": "La vida, millor compartir-la",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-u",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#37383e"
+            },
+            ".lead": {
+              "color": "#37383e"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families001-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families001-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families002-992x676.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families002-992x676-800x545.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families004-992x744.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families004-992x744-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families006-992x744.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families006-992x744-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families007-992x744.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families007-992x744-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families008-992x744.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families008-992x744-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families009-992x903.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families009-992x903-800x728.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families010-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families010-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families003-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families003-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/grup-i-families011-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grup-i-families011-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mainada075-744x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mainada075-744x992-744x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-v"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-t"
+        }
+      ]
+    },
+    "embarassos.html": {
+      "settings": {
+        "title": "Embarassos",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-s"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/embaracades010-992x992.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Parelles",
+          "text": "Viviu els millors records junts",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-u",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#37383e"
+            },
+            ".lead": {
+              "color": "#37383e"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades001-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades001-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades002-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades002-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades004-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades004-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades008-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades008-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades006-992x966.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades006-992x966-800x779.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades012-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades012-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades003-744x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades003-744x992-744x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades005-586x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades005-586x992-586x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades007-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades007-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades013-717x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades013-717x992-717x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades009-992x827.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades009-992x827-800x667.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/embaracades011-992x661.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/embaracades011-992x661-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-v"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-t"
+        }
+      ]
+    },
+    "estudi.html": {
+      "settings": {
+        "title": "estudi",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-w"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/estudio-2-1400x934.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "T'esperem al nostre estudi",
+          "text": "<p>Explican's què vols recordar. Nosaltres ens encarregarem de treure el millor de tu mateix</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-14"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/feature-bootstrap.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "smile-face",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "color": "#f1c050",
+              "active": true
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/feature-responsive.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "smile-face",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/feature-google-fonts.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "smile-face",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "color": "#d9534f",
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/feature-websites.png",
+              "class": "card-img-top",
+              "width": 600
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "smile-face",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "color": "#0275d8",
+              "active": true
+            }
+          },
+          "title1": "Jordi Montlleó<br>",
+          "caption1": "El fotògraf",
+          "title2": "Sílvia Caballero",
+          "caption2": "La Productora",
+          "title3": "Zoraida",
+          "caption3": "Arts escèniques",
+          "title4": "El noi",
+          "caption4": "L'artiste",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-15",
+          "_styles": {
+            "H4": {
+              "font-size": "24px"
+            },
+            "P": {
+              "text-align": "center",
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-x"
+        }
+      ]
+    },
+    "parelles.html": {
+      "settings": {
+        "title": "Parelles",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1.2em",
+              "color": "#37383e"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#37383e"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#37383e"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"nadons.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Nadons<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"embarassos.html\" aria-expanded=\"false\"><p>&nbsp; &nbsp; Embaraços<br></p></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"grups-i-families.html\" aria-expanded=\"false\">Grups i Famílies</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"parelles.html\" aria-expanded=\"false\">Parelles</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"comunions.html\" aria-expanded=\"false\">Comunions</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"casaments.html\" aria-expanded=\"false\">Casaments</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"estudi.html\">L'estudi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fullsizeoutput-611-295x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Jordi Montlleo Fotògrafs</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-s"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/parelles004-992x992.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Parelles",
+          "text": "Viviu els millors records junts",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-u",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#37383e"
+            },
+            ".lead": {
+              "color": "#37383e"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles014-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles014-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles016-676x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles016-676x992-676x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles009-628x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles009-628x992-628x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles010-661x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles010-661x992-661x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles005-661x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles005-661x992-661x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles003-717x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles003-717x992-717x992.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles008-992x1489.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles008-992x1489-800x1201.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles012-827x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles012-827x992-800x960.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/parelles002-992x992.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/parelles002-992x992-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-v"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Envia</a>",
+          "text1": "<strong>Adreça</strong><br>C/ Conquesta, 68<br>08912 Badalona<br><br>\n<strong>Contacte</strong><br>\nEmail: jordi@jordimontlleo.com<br>Tel.: +34&nbsp;933 977 031<br>\nFax: +34&nbsp;605 866 170",
+          "text2": "<b>Xarxes Socials</b><br><ul><li>Instagram</li><li>Facebook</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jeppalau83@gmail.com",
+            "alerts": {
+              "success": "Gràcies per contactar amb nosaltres"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nom*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telèfon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Missatge"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-t"
+        }
+      ]
+    }
+  }
+}
