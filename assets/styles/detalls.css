@@ -15,3 +15,9 @@
 .nav-item:hover{
   border-bottom: solid 3px #ffcc00;
 }
+
+.xarxes-socials{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
