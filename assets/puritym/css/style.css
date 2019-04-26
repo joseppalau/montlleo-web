@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6,
   display: table-cell;
   vertical-align: middle;
   padding-top: 9rem;
-  padding-bottom: 9rem; }
+/*padding-bottom: 9rem;*/ }
 
 .mbr-inner-padding {
   padding: 4rem; }
