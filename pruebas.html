@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <style media="screen">
+      #section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.slide{
+  display: flex;
+  justify-content: center;
+}
+
+.component{
+  text-align: center;
+  width: 100px;
+}
+
+#btn-left{
+  background: red;
+}
+
+#btn-right{
+  background: blue;
+}
+    </style>
+
+    <div>
+      <span id='span'>0</span>
+    </div>
+    <section id='section'>
+      <div class="slide">
+        <button class="button" id='btn-left'></button>
+        <div class="component">Primero</div>
+        <div class="component">Segundo</div>
+        <div class="component">Tercero</div>
+        <div class="component">Cuarto</div>
+        <div class="component">Quinto</div>
+        <button class="button" id="btn-right"></button>
+      </div>
+    </section>
+
+<script type="text/javascript">
+
+let lista = ['Primero', 'Segundo', 'Tercero', 'Cuarto', 'Quinto', 'Sexto', 'Séptimo', 'octavo']
+
+var pos = 0
+
+function listaChangeUp(){
+  let pos = lista[lista.length - 1]
+  let newpos = lista[0]
+  for(let i= 0; i < lista.length; i++){
+      newpos = lista[i]
+      lista[i] = pos
+      pos = newpos
+  }
+}
+
+function listaChangeDown(){
+  let pos = lista[0]
+  let newpos = lista[lista.legength - 1]
+  for(let i= lista.length - 1; i >= 0; i--){
+      newpos = lista[i]
+      lista[i] = pos
+      pos = newpos
+  }
+}
+
+
+function slideRender(){
+    let components = document.getElementsByClassName('component')
+    for(let i=0; i < 5; i++){
+      components[i].innerHTML = lista[i]
+    }
+}
+
+document.getElementById("btn-left").addEventListener("click", function(){
+    if(pos != 0){
+      pos--
+    }
+    listaChangeDown()
+    slideRender()
+})
+
+document.getElementById("btn-right").addEventListener("click", function(){
+    if(pos != lista.length - 1){
+      pos++
+    }
+    listaChangeUp()
+    slideRender()
+})
+
+</script>
+
+  </body>
+</html>
