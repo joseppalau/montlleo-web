@@ -23,18 +23,11 @@ function listaChangeDown(){
   }
 }
 
-
-function slideRender(){
-    let components = document.getElementsByClassName('component')
-    for(let i=0; i < 5; i++){
-      components[i].innerHTML = lista[i][0]
-    }
-}
-
 document.getElementById("btn-left").addEventListener("click", function(){
     if(pos != 0){
       pos--
     }
+    console.log('click')
     listaChangeDown()
     slideRender()
 })
@@ -46,3 +39,16 @@ document.getElementById("btn-right").addEventListener("click", function(){
     listaChangeUp()
     slideRender()
 })
+
+
+function slideRender(){
+  let i = 0
+  $('.component').each(function(){
+  if(i != 2){
+    $(this).html('<p style="font-size:20px;">' + lista[i][0] + '</p>')
+  } else{
+    $(this).html('<p style="font-size:20px; font-weight:bold;"><a href=' + lista[i][1] + '>' + lista[i][0] + '</a></p>')
+  }
+  i++  
+  })
+}
