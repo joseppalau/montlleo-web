@@ -1,8 +1,9 @@
 $('#sec-icon').on('click', function(){
   $('.modal-seccions').show()
+  $('#dropdown-menu-a').css('z-index', '2')
 })
 
-let lista = [['Casaments','casaments.html','assets/images/casament003-1134x772.jpg'],['Comunions', 'comunions.html', 'assets/images/comunions006-992x676.jpg'], ['Embarassos','embarassos.html', 'assets/images/embaracades011-992x661-800x533.jpg'], ['Families', 'grups-i-families.html','assets/images/grup-i-families001-992x676-800x545.jpg'], ['Nadons', 'nadons.html', 'assets/images/nadons015-992x992.jpg'], ['Parelles', 'parelles.html', 'assets/images/parelles004-992x992.jpg']]
+let lista = [['Casaments','casaments.html','assets/images/slide/casaments-slide.png'],['Comunions', 'comunions.html', 'assets/images/slide/comunions-slide.png'], ['Embarassos','embarassos.html', 'assets/images/slide/embarassades-slide.png'], ['Families', 'grups-i-families.html','assets/images/slide/families-slide.png'], ['Nadons', 'nadons.html', 'assets/images/slide/nadons-slide.png'], ['Parelles', 'parelles.html', 'assets/images/slide/parelles-slide.png']]
 
 var pos = 0
 
@@ -49,9 +50,9 @@ function slideRender(){
  let i = 0
  $('.component').each(function(){
  if(i != 2){
-   $(this).html('<img src=' + lista[i][2] + '><p style="font-size:20px;">' + lista[i][0] + '</p>')
+   $(this).html('<div class="component-img"><img src=' + lista[i][2] + '></div><p style="font-size:20px;">' + lista[i][0] + '</p>')
  } else{
-   $(this).html('<img src=' + lista[i][2] + '><p style="font-size:20px; font-weight:bold;"><a href=' + lista[i][1] + '>' + lista[i][0] + '</a></p>')
+   $(this).html('<div class="component-img"><img src=' + lista[i][2] + '></div><p style="font-size:20px; font-weight:bold;"><a href=' + lista[i][1] + '>' + lista[i][0] + '</a></p>')
  }
  i++
  })

@@ -2,7 +2,6 @@
   height: 100%;
 }
 
-
 .modal-seccions{
   display: none;
   position: fixed;
@@ -15,35 +14,48 @@
 }
 
 .modal-seccions-content{
-  background-color: white;
+  background-color: black;
   position: absolute;
+  top: 25vh;
   width: 100%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
-.slide-content, .slide-btns-content{
+.slide-content{
     display: flex;
-    background-color: black;
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
+    height: 80%;
     color: white;
     text-align: center;
   }
+
+.slide-btns-content{
+
+}
+
 }
 
 .component{
-  max-width: 20%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.component img{
-  max-width: 100%;
+.component-img{
+  width: 100%;
+  height: auto;
+}
+
+.component-img img{
+  width: 100%;
   height: auto;
 }
 
