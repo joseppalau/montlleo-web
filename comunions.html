@@ -17,7 +17,9 @@
   <link rel="stylesheet" href="assets/dropdown-menu/style.light.css">
   <link rel="stylesheet" href="assets/puritym/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  <link rel="stylesheet" href="assets/styles/detalls.css">
+  <link rel="stylesheet" href="assets/estils/styles/content.css">,
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -25,25 +27,46 @@
   <section id="dropdown-menu-a" data-rv-view="0">
 
     <nav class="navbar navbar-dropdown navbar-fixed-top">
-
-        <div class="container" style="display: flex; align-items: center; justify-content:space-around;">
-
-            <div class="navbar-brand">
-                <a href="index.html" class="navbar-logo"><img src="assets/images/fullsizeoutput-611-295x128.jpg" alt="Mobirise" style="width:250px; height:auto;"></a>
-            </div>
-
-            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="nadons.html" aria-expanded="false">Nadons</a></li><li class="nav-item"><a class="nav-link link" href="embarassos.html" aria-expanded="false">Embarassos</a></li>
-              <li class="nav-item"><a class="nav-link link" href="grups-i-families.html" aria-expanded="false">Grups i Famílies</a></li><li class="nav-item"><a class="nav-link link" href="parelles.html" aria-expanded="false">Parelles</a></li><li class="nav-item"><a style="font-weight:bold;" class="nav-link link" href="comunions.html" aria-expanded="false">Comunions</a></li>
-              <li class="nav-item"><a class="nav-link link" href="casaments.html" aria-expanded="false">Casaments</a></li><li class="nav-item"><a class="nav-link link" href="estudi.html">L'estudi</a></li><li class="nav-item"><a class="nav-link link" href="https://mobirise.com/" aria-expanded="false"></a></li>
-            </ul>
-
-        </div>
+      <div class="">
+         <img id="sec-icon" src="https://img.icons8.com/windows/32/000000/menu.png"> <span style="font-size:20px;">Seccions</span>
+      </div>
 
     </nav>
 
 </section>
 
-<section class="mbr-section mbr-section-nopadding mbr-after-navbar" id="msg-box4-o" data-rv-view="602" style="background-color: rgb(255, 255, 255); padding-top: 100px; padding-bottom: 0rem;">
+<section class="modal-seccions">
+  <div class="modal-seccions-content">
+    <p id="seccions-label">Seccions</p>
+    <div class="slide-content">
+      <div class="component">
+        <img src="assets/images/casament003-1134x772.jpg" alt="">
+        <p style="font-size:20px;">Casaments</p></div>
+      <div class="component">
+        <img src="assets/images/comunions006-992x676.jpg" alt="">
+        <p style="font-size:20px;">Comunions</p>
+      </div>
+      <div class="component">
+        <img src="assets/images/embaracades011-992x661-800x533.jpg" alt="">
+        <p style="font-size:20px; font-weight:bold;"><a href="#">Embarassos</a></p>
+      </div>
+      <div class="component">
+        <img src="assets/images/grup-i-families001-992x676-800x545.jpg" alt="">
+        <p style="font-size:20px;">Famílies</p>
+      </div>
+      <div class="component">
+        <img src="assets/images/nadons015-992x992.jpg" alt="">
+        <p style="font-size:20px;">Nadons</p>
+      </div>
+    </div>
+    <div class="slide-btns-content">
+        <span id=btn-left-content><img src="assets/images/icons8-back-filled-50.png" alt=""></span>
+        <span id=btn-right-content><img src="assets/images/icons8-forward-filled-50.png" alt=""></span>
+    </div>
+  </div>
+</section>
+
+<section class="mbr-section mbr-section-nopadding mbr-after-navbar" id="msg-box4-o" data-rv-view="602" style="background-color: rgb(255, 255, 255); padding-bottom: 0rem;">
 
     <div class="container">
         <div class="row">
@@ -244,7 +267,7 @@ Fax: +34&nbsp;605 866 170</p>
 </section>
 
 
-
+  <script src="assets/estils/js/content.js" type="text/javascript"></script>
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
