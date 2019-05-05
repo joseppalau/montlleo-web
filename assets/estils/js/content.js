@@ -1,7 +1,11 @@
-$('#sec-icon').on('click', function(){
-  $('.modal-seccions').show()
-  $('#dropdown-menu-a').css('z-index', '2')
+$('#open-modal-btn').on('click', function(){
+  $('#main-modal').show()
 })
+
+$('#close-modal-btn').on('click', function(){
+  $('#main-modal').hide()
+})
+
 
 let lista = [['Casaments','casaments.html','assets/images/slide/casaments-slide.png'],['Comunions', 'comunions.html', 'assets/images/slide/comunions-slide.png'], ['Embarassos','embarassos.html', 'assets/images/slide/embarassades-slide.png'], ['Families', 'grups-i-families.html','assets/images/slide/families-slide.png'], ['Nadons', 'nadons.html', 'assets/images/slide/nadons-slide.png'], ['Parelles', 'parelles.html', 'assets/images/slide/parelles-slide.png']]
 

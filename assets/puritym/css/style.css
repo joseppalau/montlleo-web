@@ -258,7 +258,7 @@ footer.mbr-footer {
  */
 .mbr-after-navbar:before {
   content: "";
-  display: block;
+  display: none;
   height: 54px; }
 
 .mbr-section__container--first {

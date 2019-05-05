@@ -24,20 +24,25 @@
 </head>
 
 <body>
-  <section id="dropdown-menu-a" style="z-index: 2;" data-rv-view="0">
+  <section id="dropdown-menu-a" data-rv-view="0">
 
-    <nav class="navbar navbar-dropdown navbar-fixed-top">
-      <div class="">
-         <img id="sec-icon" src="https://img.icons8.com/windows/32/000000/menu.png"> <span style="font-size:20px;">Seccions</span>
+    <nav class="nav-content">
+      <div class="nav-content-left">
+        <a id="open-modal-btn" href="#">Seccions</a>
       </div>
-
+      <div class="nav-content-right">
+        <a href="#">l'Estudi</a>
+        <a href="#">Contacte</a>
+      </div>
     </nav>
 
 </section>
 
-<section class="modal-seccions">
+<section id="main-modal" class="modal-seccions">
   <div class="modal-seccions-content">
-    <p id="seccions-label">Seccions</p>
+    <div class="close-modal" style="height:20%;">
+      <i id="close-modal-btn" style="float:right; color:white; font-size:36px;" class="fas fa-times"></i>
+    </div>
     <div class="slide-content">
       <div class="component">
         <div class="component-img">
